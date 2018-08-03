@@ -86,7 +86,7 @@ function insertTweet(tid, ttext, tuser) {
 console.log("Waiting foe an Event");
 var tcount = 0;
 
-var findAndReTweet = ['#DMKProtestPropertyTax','#பொன்விழாத்தலைவர்கலைஞர்'];
+var findAndReTweet = ['#ModiFails','#கலைஞர்'];
 
 //var stream = T.stream('statuses/filter', {track: '#DMKITwing'});
 var stream = T.stream('statuses/filter', {track: findAndReTweet});
