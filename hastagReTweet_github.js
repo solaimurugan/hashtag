@@ -46,7 +46,7 @@ var MongoClient = require('mongodb').MongoClient;
 
 //CREATE ACCOUNT in MONGODB Atlas
 //url = "mongodb://solai:solairaj12*@ds163330.mlab.com:63330/tweetsdmk"
-url = "mongodb://"+dbUserName+":"+dbUserPwd+"@ds163330.mlab.com:63330"
+url = "mongodb://"+dbUserName+":"+dbUserPwd+"@ds163330.mlab.com:63330/tweetsdmk"
 
 
 /*
