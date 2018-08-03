@@ -1,0 +1,14 @@
+{
+  "name": "hashtag",
+  "version": "1.0.0",
+  "description": "Node js twitter bot to retweet mentioned #",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Solaimurugan v",
+  "license": "aa_ai",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
