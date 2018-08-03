@@ -9,7 +9,7 @@
   "author": "Solaimurugan v",
   "license": "aa_ai",
   "dependencies": {
-    "twit": "^2.2.9"
+    "twit": "^2.2.9",
     "config":"^0.3.9"
   }
 }
