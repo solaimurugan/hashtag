@@ -18,7 +18,7 @@
 //db.imagedmk.createIndex( { "image_url": 1 },  { partialFilterExpression: { image_url: { $exists: true } } } )
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*
+
 var Twit = require('twit')
 var T = new Twit({
     consumer_key:         'Z7Ww83km4ElGyxePAHVkK1ktt',
@@ -26,7 +26,7 @@ var T = new Twit({
     access_token:         '1015296632168931329-rjUhJK81rTjb6kouaESjAYPSzO6l4V',
     access_token_secret:  'muryPklbv9n9XQVRUVZgMp7gstQz3MML0nHM5ye45oALR',
 })
-
+/*
 // To connect using the mongo shell: 
 mongo ds163330.mlab.com:63330/tweetsdmk -u <dbuser> -p <dbpassword> 
 
@@ -35,7 +35,7 @@ mongodb://<dbuser>:<dbpassword>@ds163330.mlab.com:63330/tweetsdmk
 mongodb://solai:solairaj12*@ds163330.mlab.com:63330/tweetsdmk
 
 */
-const T = require("./Twit.js");
+//const T = require("./Twit.js");
 
 
 //DATABASE connection
@@ -45,8 +45,8 @@ var MongoClient = require('mongodb').MongoClient;
 //url = MongoClient("mongodb://admin:pass@bossdb-shard-00-00-w54dc.mongodb.net:27017,bossdb-shard-00-01-w54dc.mongodb.net:27017,bossdb-shard-00-02-w54dc.mongodb.net:27017/test?ssl=true&replicaSet=BOSSDB-shard-0&authSource=admin&retryWrites=true")
 
 //CREATE ACCOUNT in MONGODB Atlas
-//url = "mongodb://solai:solairaj12*@ds163330.mlab.com:63330/tweetsdmk"
-url = "mongodb://"+dbUserName+":"+dbUserPwd+"@ds163330.mlab.com:63330/tweetsdmk"
+url = "mongodb://solai:solairaj12*@ds163330.mlab.com:63330/tweetsdmk"
+//url = "mongodb://"+dbUserName+":"+dbUserPwd+"@ds163330.mlab.com:63330/tweetsdmk"
 
 
 /*
