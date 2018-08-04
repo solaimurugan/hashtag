@@ -7,7 +7,7 @@ const twitterApp = {
 };
 
 module.exports = {
-  twitterApp,
+ // twitterApp,
   userName: process.env.USERNAME,
   dbUserName: process.env.DB_USERNAME,
   dbUserPwd: process.env.DB_USERPWD	,
