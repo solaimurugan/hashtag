@@ -21,10 +21,10 @@
 
 var Twit = require('twit')
 var T = new Twit({
-    consumer_key:         '',
-    consumer_secret:      '',
-    access_token:         '',
-    access_token_secret:  '',
+    consumer_key:         'Z7Ww83km4ElGyxePAHVkK1ktt',
+    consumer_secret:      'B64oPhYkqH6AR4Zzd03TYLTr0zNMeauXBtiD2JIe0miDWKEyTm',
+    access_token:         '1015296632168931329-rjUhJK81rTjb6kouaESjAYPSzO6l4V',
+    access_token_secret:  'muryPklbv9n9XQVRUVZgMp7gstQz3MML0nHM5ye45oALR',
 })
 /*
 // To connect using the mongo shell: 
