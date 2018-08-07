@@ -86,7 +86,7 @@ function insertTweet(tid, ttext, tuser) {
 console.log("Waiting foe an Event");
 var tcount = 0;
 
-var findAndReTweet = ['#Marina4Kalaignar','#கலைஞர்'];
+var findAndReTweet = ['#Marina4Kalaignar','#கலைஞர்']; 
 
 //var stream = T.stream('statuses/filter', {track: '#DMKITwing'});
 var stream = T.stream('statuses/filter', {track: findAndReTweet});
