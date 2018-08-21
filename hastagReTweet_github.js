@@ -87,7 +87,7 @@ console.log("Waiting foe an Event");
 var tcount = 0;
 
 //var findAndReTweet = ['#MKStalin','#கலைஞர்', '#Thala', '#Ajith' , '#Viswasam' ,'#AjithKumar' ,'#AK', '#Thalapathy','#Sarkar']; 
-var findAndReTweet = ['#MKStalin','#கலைஞர்', '#DMK','#MKstalin','#KeralaFlood', '#Thalapathy']; 
+var findAndReTweet = ['#MKStalin','#கலைஞர்', '#DMK','#MKstalin','#KeralaFlood', '#Thalapathy'];  
 //var stream = T.stream('statuses/filter', {track: '#DMKITwing'});
 var stream = T.stream('statuses/filter', {track: findAndReTweet});
 
